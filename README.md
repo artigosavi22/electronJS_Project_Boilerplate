@@ -16,11 +16,11 @@ This guide explains how to create, activate, and make a production-ready Electro
 npm init -y     //(create setup with default using -y flag)
 
 3.update package.json file with 
-     ```bash
- "main": "main.js", // replace with index.js with main.js
+```bash
+"main": "main.js", // replace with index.js with main.js
 
 4.install electron
- ```bash
+```bash
 npm install --save-dev electron
 
 5.In the scripts field of your package.json config, add a start command like so:
@@ -36,7 +36,7 @@ npm install --save-dev electron
 7.write createWindow() and loadFile with index.html code 
 
 8. start application
- ```bash
+```bash
 npm run start
 
 
