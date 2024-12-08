@@ -12,12 +12,14 @@ This guide explains how to create, activate, and make a production-ready Electro
    cd my-electron-app
 
 2. **create Package.json file**:
-```bash
-npm init -y     //(create setup with default using -y flag)
+create setup with default using -y flag
+   ```bash
+   npm init -y
 
 3.update package.json file with 
+replace with index.js with main.js
 ```bash
-"main": "main.js", // replace with index.js with main.js
+"main": "main.js",
 
 4.install electron
 ```bash
